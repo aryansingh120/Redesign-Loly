@@ -1,0 +1,196 @@
+.footer-container {
+    padding: 0 6vw;
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
+    padding-top: 10rem;
+  }
+  
+  .explore-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.2rem 4vw;
+    border-radius: 9999px;
+    background-color: #7FFAA1 !important;
+    margin-bottom: 3rem;
+    border: none;
+    height: auto;
+    width: 100%;
+  }
+  
+  .explore-button:hover {
+    background-color: #6ce890 !important;
+  }
+  
+  .explore-text {
+    font-weight: bold;
+    font-size: 1.6rem;
+    color: white !important;
+    padding: 0.8rem 0;
+    padding-left: 2vw;
+  }
+  
+  .arrow-icon-wrapper {
+    background-color: white;
+    border-radius: 50%;
+    padding: 0.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .arrow-icon {
+    font-size: 2rem;
+    color: #000000;
+    rotate: 50deg;
+  }
+  .arrow-icon2 {
+    font-size: 2rem !important;
+    color: white;
+    rotate: 50deg;
+  }
+  
+  .contact-list {
+    color: white;
+  }
+  
+  .contact-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.3rem 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  .contact-item .ant-typography {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 0;
+  }
+  
+  .contact-item:hover .ant-typography,
+  .contact-item:hover .arrow-button {
+    color: #7FFAA1;
+    transition: color 0.3s;
+  }
+  
+  .arrow-button {
+    border: 2px solid white;
+    color: white;
+    
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+   
+    height: 3rem !important;
+    width: 3rem !important;
+  }
+ 
+  
+  .arrow-button:hover {
+    border-color: #7FFAA1;
+    color: #7FFAA1;
+  }
+  
+  .arrow-button .anticon {
+    font-size: 1.4rem;
+  }
+  
+  .footer-images {
+    margin-top: 12rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .earth-image,
+  .payment-methods-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+  
+  @media (min-width: 768px) {
+    .explore-text {
+      font-size: 5rem;
+    }
+  
+    .arrow-icon-wrapper {
+      padding: 1rem;
+    }
+  
+    .arrow-icon {
+      font-size: 4rem;
+    }
+  
+    .contact-item .ant-typography {
+      font-size: 2rem;
+    }
+  
+    .arrow-button {
+      padding: 0.8rem;
+    }
+  
+    .arrow-button .anticon {
+      font-size: 2.5rem;
+    }
+  
+    .explore-button {
+      padding: 1rem 4vw;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .explore-text {
+      font-size: 6rem;
+    }
+  
+    .arrow-icon-wrapper {
+      padding: 3rem;
+    }
+  
+    .arrow-icon {
+      font-size: 5rem;
+    }
+  
+    .contact-item .ant-typography {
+      font-size: 2.7rem;
+    }
+  
+    .arrow-button {
+      padding: 1.1rem;
+    }
+  
+    .arrow-button .anticon {
+      font-size: 2.8rem;
+    }
+  
+    .explore-button {
+      padding: 3rem 4vw;
+    }
+
+    .arrow-icon2 {
+        font-size: 3rem !important;
+        color: white;
+        rotate: 50deg;
+      }
+    .arrow-button {
+        border: 2px solid white;
+        color: white;
+        
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: transparent;
+       
+        height: 5rem !important;
+        width: 5rem !important;
+      }
+  }
+  
+  
