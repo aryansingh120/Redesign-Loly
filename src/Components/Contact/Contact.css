@@ -69,6 +69,7 @@
       justify-content: center;
       /* align-items: center; */
       margin: 4rem 0;
+      /* border: 2px solid red; */
      
       
     }
@@ -117,7 +118,14 @@
       .content-col{
           width: 56% !important;
           /* border: 2px solid red; */
-      }
+          overflow: hidden;
+
+      
+        }
+        .wheel-image{
+          margin-left: 5rem;
+        }
+
       .image-col{
           width: 40% !important;
           /* border: 2px solid yellow; */

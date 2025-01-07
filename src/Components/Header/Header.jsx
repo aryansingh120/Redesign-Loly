@@ -93,8 +93,8 @@ const Header = () => {
           exit="hidden"
           variants={containerVariants}
         >
-          <Row gutter={[32, 32]} align="middle">
-            <Col xs={24} md={12} order={[2, 2, 1, 1]}>
+          <Row gutter={[0,0]} align="middle" justify="start" className='first-row'>
+            <Col xs={24} md={12} >
               <motion.div className="video-container" variants={itemVariants}>
                 <video
                   src="https://loly.app/wp-content/uploads/2024/08/87477119-7334-46d1-bbb3-46e7e2bc5007.mp4"
@@ -106,10 +106,10 @@ const Header = () => {
                 />
               </motion.div>
             </Col>
-            <Col xs={24} md={12} order={[1, 1, 2, 2]}>
+            <Col xs={24} md={12} >
               <div className="content">
                 <motion.div variants={itemVariants}>
-                  <Title level={1} className="main-title">
+                  <Title level={1} className="main-title1">
                     It's simple, it's better.
                   </Title>
                 </motion.div>
