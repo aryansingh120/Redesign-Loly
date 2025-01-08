@@ -1,142 +1,3 @@
-/* .main1{
-    width: 9rem;
-    flex-shrink: -0;
-}
-.loly{
-    height: 3.5rem;
-    cursor: pointer;
-}
-
-
-.main{
-    background-color: black;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-   
-}
-
-  @media (max-width: 640px){
- .main{
-        background-color: black;
-        padding: 2rem 6vw;
-    }
-    .main3{
-        display: none;
-    }
-    .main4{
-        display: none;
-    }
-  }
-
-  @media (min-width: 641px) and (max-width: 768px) {
-    .main{
-        background-color: black;
-        padding: 2rem 4vw;
-    }
-    .main3{
-        display: none;
-    }
-    .main4{
-        display: none;
-    }
-
-  }
-  @media (min-width: 769px) and (max-width: 1024px) {
-    .main{
-        background-color: black;
-        padding: 2rem 4vw;
-    }
-    .main3{
-        display: none;
-    }
-    .main4{
-        display: none;
-    }
-
-  }
-  @media (min-width: 1025px)  {
-    .main{
-        background-color: black;
-        padding: 2rem 6vw;
-    }
-    .main2{
-        display: none;
-    }
-    .child1{
-        color: white !important;
-    }
-    .child1:hover{
-        color: #7FFAA1!important;
-        transition-property: all !important;
-        transition-duration: 700ms !important;
-    }
-    .child2{
-        font-size: 18px;
-        text-transform: capitalize;
-        padding: 1.3rem 2rem !important;
-    }
-   
-    .child2:nth-child(1)
-    {
-        color: white !important;
-        
-        
-    }
-    .child2:nth-child(1):hover{
-        background-color: #7FFAA1!important;
-        transition-property: all;
-        transition-duration: 700ms;
-
-
-    }
-    .child2:nth-child(2)
-    {
-        color: black !important;
-        background-color: white !important;
-        
-        
-    }
-    .child2:nth-child(2):hover{
-        background-color: #7FFAA1!important;
-        transition-property: all;
-        transition-duration: 700ms;
-
-
-    }
-    .main3{
-        color: white;
-        flex-grow: 1;
-        gap: 2rem;
-        display: flex;
-    
-        .child1{
-            font-size: 18px !important;
-            font-weight: bold!important;
-        }
-        
-    
-    }
-    .main4{
-        width: 18rem;
-        display: flex ;
-        justify-content: space-between;
-        align-items: center;
-        font-weight: bold;
-    }
-  
-  } */
-
-
-
-
-
-
-
-
-
-
 *{
     box-sizing: border-box;
 }
@@ -145,7 +6,7 @@
     position: relative;
     background-color: black;
     color: white;
-    padding: 3rem 5vw;
+    padding: 2rem 2vw;
 }
 
 .navbar {
@@ -156,7 +17,6 @@
 
 .logo-container {
     text-align: left;
-    /* border: 2px solid red; */
     width: 11vw;
     flex-shrink: 0;
 
@@ -165,7 +25,6 @@
 .logo {
     height: 3.5rem;
     cursor: pointer;
-    /* border:2px solid green */
 }
 
 .desktop-menu {
@@ -177,7 +36,6 @@
 .desktop-buttons {
     display: none;
     gap: 1vw;
-    /* border: 2px solid red; */
     justify-content: space-between;
     align-items: center;
 }
@@ -230,7 +88,6 @@
 
 .login-btn {
     color: white !important;
-    /* border: 1px solid white; */
     background-color: black !important;
     font-size: 18px !important;
     text-transform: capitalize !important;
@@ -240,8 +97,6 @@
 }
 .login-btn:hover{
     background-color: #7FFAA1 !important;
-    /* transition-property: all !important; */
-    /* transition-duration: 0.5s !important; */
     transition: all .3s ease !important;
 }
 .register-btn:hover{
@@ -252,7 +107,6 @@
 }
 
 .register-btn {
-    /* background-color: #7FFAA1; */
     background-color: white;
     color: black;
     font-size: 18px !important;
@@ -273,14 +127,14 @@
 }
 
 @media (min-width: 1025px) {
+    .navbar-container {
+        padding: 3rem 6vw;
+    }
     .navbar{
-        /* border: 2px solid orange; */
         justify-content: start;
-        /* gap: 2rem; */
     }
     .desktop-menu {
         display: flex;
-        /* border: 2px solid yellow; */
         flex-grow: 1;
         justify-content: start;
     }
@@ -288,12 +142,17 @@
     .desktop-buttons {
         display: flex;
         gap: 4vw !important;
-        /* border: 2px solid yellow; */
 
     }
 
     .mobile-menu-btn-container {
         display: none;
+    }
+    .nav-item:hover{
+        color: #7FFAA1 !important;
+        transition-property: all;
+        transition-duration: 0.3s !important;
+
     }
 }
 

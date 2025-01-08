@@ -1,59 +1,3 @@
-// import React from 'react'
-// import { Button, Image,Row,Col } from 'antd'
-// import { MenuOutlined } from '@ant-design/icons';
-// import './Navbar.css'
-
-
-// const Navbar = () => {
-//   let navItem=["Become a fan","Become a creator","Contact us"];
-//   let btnItem=["login","Register"];
-
-//   return (
-//     <div className='main'>
-//     <Col className="main1">
-//       <img src='./Assets/logo_main.png' className='loly'/>
-//     </Col>
-//     <Col className='main2'>
-//     <MenuOutlined style={{ fontSize: '24px', color: 'white' }} /> 
-//      </Col>
-
-//      <Col className='main3'>
-//       {
-//         navItem.map((item,index)=>{
-//           return (
-//     <Button type="text" className='child1'>{item}</Button>
-//           )
-//         })
-//       }
-//      </Col>
-//      <Col className='main4'>
-//      {
-//       btnItem.map((item,index)=>{
-//         return (
-//           <Button type='link' shape='round' className='child2'>{item}</Button>
-//         )
-//       })
-//      }
-
-//      </Col>
-
-//     </div>
-
-    
-   
-    
-//   )
-// }
-
-// export default Navbar
-
-
-
-
-
-
-
-
 import React, { useState } from 'react';
 import { Drawer, Button, Row, Col } from 'antd';
 import { MenuOutlined, CloseOutlined } from '@ant-design/icons';
@@ -116,12 +60,9 @@ const Navbar = () => {
             {/* Mobile Drawer */}
             <Drawer
                 placement="left"
-                // onClose={closeDrawer}
                 open={drawerVisible}
                 width="100%"
-                className="mobile-drawer"
-                // closeIcon={<CloseOutlined className="close-icon" />}
-            >
+                className="mobile-drawer" >
                 <div className="mobile-menu-content">
                     <div className="mobile-header">
                         <img src="./Assets/logo_main.png" alt="loly" className="mobile-logo" />

@@ -1,0 +1,208 @@
+.hero_button2:hover{
+  background-color: #7FFAA1 !important;
+  transition-property: all;
+  transition-duration: 0.3s !important;
+
+}
+.hero_button2{
+  color: white !important;
+  background-color: #1C1C1E;
+
+}
+
+   @media (max-width: 767px) {
+    .hero_section{
+      background-color: black;
+      padding: 0 2vw;
+    }
+    .hero_title{
+      font-size: 45px;
+      text-transform: uppercase;
+      font-weight: 800;
+      color: white !important;
+    }
+    .hero_description{
+      font-weight: 550;
+      display: flex;
+      flex-direction: column;
+
+    }
+    .para4{
+      color: white !important;
+      font-size: 16px;
+
+    }
+
+    .hero_buttons{
+      display: flex;
+      gap: 1rem;
+      margin-top: 2rem;
+
+    }
+    .hero_button2{
+      width: 44vw !important;
+      padding: 1.6rem 0;
+      font-size: 1.5rem;
+      font-weight: 550;
+      color: #F4F4F4;
+      border-radius: 1.5rem;
+      background-color: #1C1C1E;
+      border: none;
+    }
+    .hero_image_container{
+      overflow: hidden;
+      margin-top: 4rem;
+    }
+    .hero_image{
+      width: 95vw;
+    }
+    .start_up_button{
+      display: none;
+    }
+    
+    .break_line{
+      display: none;
+    }
+
+   }
+
+   @media(min-width: 768px) and (max-width: 1024px){
+    .hero_section{
+      background-color: black;
+      padding: 0 4vw;
+      display: flex;
+      flex-direction: row;
+    }
+    .hero_content{
+      width: 55%;
+    }
+    .hero_title{
+      font-size: 50px !important;
+      text-transform: uppercase;
+      font-weight: bolder;
+      color: white !important;
+    }
+    .hero_description{
+      font-weight: 550;
+      display: flex;
+      flex-direction: column;
+
+    }
+    .para4{
+      color: white !important;
+      font-size: 16px;
+
+
+    }
+    .hero_buttons{
+      display: flex;
+      gap: 1rem;
+      margin-top: 2rem;
+
+    }
+    .hero_button2{
+      width: 55vw !important;
+      padding: 1.8rem 0;
+      font-size: 1.5rem;
+      font-weight: 550;
+      color: #F4F4F4;
+      border-radius: 1.5rem;
+      background-color: #1C1C1E;
+      border: none;
+    }
+    
+
+    .hero_image_container{
+      width: 45% !important;
+    }
+    .hero_image{
+      width: 41vw;
+      height: 30rem;
+    }
+    .start_up_button{
+      display: none;
+    }
+    .break_line{
+      display:none;
+     }
+
+   }
+
+   @media(min-width: 1025px){
+    .hero_section{
+      background-color: black;
+      padding-left: 6vw;
+      /* padding-right: 2vw; */
+      display: flex;
+      flex-direction: row;
+    }
+    .hero_content{
+      width: 100%;
+      padding-top: 0 !important;
+    }
+    .hero_title{
+      font-size: 6rem !important;
+      text-transform: uppercase;
+      font-weight: 1000 !important;
+      color: white !important;
+    }
+    .hero_description{
+      font-weight: 550;
+      display: flex;
+      flex-direction: column;
+
+    }
+    .para4{
+      color: white !important;
+      font-size: 19px;
+
+
+    }
+    .hero_buttons{
+      display: flex;
+      gap: 1rem;
+      margin-top: 2rem;
+
+    }
+    .hero_button2{
+      width: 23vw !important;
+      padding: 2.7rem 0;
+      font-size: 1.5rem;
+      font-weight: 550;
+      border-radius: 2.2rem;
+      border: none;
+      max-width: 20rem;
+    }
+    .start_up_button{
+      display: inline;
+      width: 47vw !important;
+      margin-top: 2rem;
+      max-width: 41rem !important;
+      text-align: center;
+      display: flex ;
+      align-items: center;
+      color: #929294 !important;
+    }
+    .hero_image_container{
+      display: none;
+    }
+       .hero_content{
+        background-image: url("/public/Assets/hand.webp");
+        background-size: contain; 
+        background-repeat: no-repeat;
+        background-position: right;
+        padding-bottom: 8rem;
+        max-width: 80rem;
+       }
+       .break_line{
+        display: block;
+       }
+       .hero_title{
+        margin-top: -.3rem;
+       }
+       .hero_image_container{
+        display: none;
+       }
+      
+   }
+  

@@ -53,7 +53,9 @@
 .cards2-button:hover {
     background-color: #7FFAA1 !important;
     border-color: #7FFAA1 !important;
-    color: black !important;
+    /* color: black !important; */
+    transition: all !important;
+    transition-duration: .3s !important;
 }
 
 @media (min-width: 768px) {

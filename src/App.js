@@ -8,6 +8,7 @@ import Contact from './Components/Contact/Contact';
 import Peoples from './Components/Peoples/Peoples';
 import Cards from './Components/Cards/Cards';
 import Footer from './Components/Footer/Footer';
+import Hero from './Components/Hero/Hero';
 
 
 const { Content } = Layout;
@@ -16,11 +17,13 @@ const App = () => {
   return (
        <Layout className='app'> 
       <Navbar/>
+      <Hero/>
       <Header/>
       <Contact/>
       <Peoples/>
       <Cards/>
       <Footer/>
+
        
     </Layout>
 
